@@ -1,0 +1,61 @@
+using System;
+
+namespace 백준프로그래밍공부 // 사칙연산
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+	/// 곱셈과정을 차례로 나타내야함
+            // 세자리 숫자를 char로 입력
+            //int firstThreeDigit = int.Parse(Console.ReadLine());
+            //string secondThreeDigit = Console.ReadLine();
+
+            // 두번째 입력된 수를 배열로 바꾸기
+            //char[] secondNumArray = secondThreeDigit.ToCharArray();
+
+            //// 새로운 배열안에 넣어둠
+            //int[] forSecondNumArray = new int[secondNumArray.Length];
+
+            //for (int i = 0; i < forSecondNumArray.Length; i++)
+            //{
+            //    forSecondNumArray[i] = int.Parse(secondNumArray[i].ToString());
+            //}
+
+            //Console.WriteLine(firstThreeDigit * forSecondNumArray[2]); //3번째 줄
+            //Console.WriteLine(firstThreeDigit * forSecondNumArray[1]); //4번째 줄
+            //Console.WriteLine(firstThreeDigit * forSecondNumArray[0]); //5번째 줄
+            //Console.WriteLine(firstThreeDigit * forSecondNumArray[2] 
+            //         + firstThreeDigit * forSecondNumArray[1] * 10 
+            //         + firstThreeDigit * forSecondNumArray[0] * 100); //6번째 줄
+
+
+
+	///스플릿으로 쪼개서 덧셈, 빼기, 곱하기 연산
+            //string s = Console.ReadLine();
+            //string[] ss = s.Split();
+            //int a = int.Parse(ss[0]);
+            //int b = int.Parse(ss[1]);
+            //Console.WriteLine(a + b);
+
+            //string[] sss = Console.ReadLine().Split();
+            //int c = int.Parse(sss[0]);
+            //int d = int.Parse(sss[1]);
+            //Console.WriteLine(c + d);
+
+
+	/// 나머지 연산
+            //string input = Console.ReadLine();
+            //string[] arr = input.Split();
+
+            //int A = int.Parse(arr[0]);
+            //int B = int.Parse(arr[1]);
+            //int C = int.Parse(arr[2]);
+
+            //Console.WriteLine((A + B) % C);
+            //Console.WriteLine(((A % C) + (B % C)) % C);
+            //Console.WriteLine((A * B) % C);
+            //Console.WriteLine(((A % C) * (B % C)) % C);
+        }
+    }
+}
