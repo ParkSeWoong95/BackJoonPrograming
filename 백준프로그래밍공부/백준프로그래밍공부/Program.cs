@@ -13,7 +13,7 @@ namespace 백준프로그래밍공부
             int hour = int.Parse(timeSplit[0]);
             int minute = int.Parse(timeSplit[1]);
 
-            minute = minute - 45;
+            minute -= 45;
             if (minute > 0)
             {
                 Console.WriteLine($"{hour} {minute}");
