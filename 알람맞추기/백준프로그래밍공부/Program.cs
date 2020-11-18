@@ -31,7 +31,8 @@ namespace 백준프로그래밍공부
                 minute += 60;
                 Console.WriteLine($"{hour} {minute}");
 
-                // 실패
+                // 실패인가
+                
             }
         }
     }
