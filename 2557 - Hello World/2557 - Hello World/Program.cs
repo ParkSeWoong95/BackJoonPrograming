@@ -7,6 +7,7 @@ namespace _2557___Hello_World
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            //연습
         }
     }
 }
