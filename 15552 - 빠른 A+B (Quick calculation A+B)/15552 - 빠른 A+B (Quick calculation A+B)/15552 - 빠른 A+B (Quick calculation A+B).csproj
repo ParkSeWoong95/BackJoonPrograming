@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_15552___빠른_A_B__Quick_calculation_A_B_</RootNamespace>
+  </PropertyGroup>
+
+</Project>
